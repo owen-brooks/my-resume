@@ -1,6 +1,6 @@
 # My-Resume
 
-Resume written using latex.
+> resume written in latex
 
 Template found at https://github.com/sb2nov/resume
 

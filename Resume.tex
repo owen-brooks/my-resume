@@ -13,7 +13,7 @@
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
-\usepackage{fontawesome}
+% \usepackage{fontawesome}
 
 
 \pagestyle{fancy}
@@ -73,8 +73,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\LARGE Owen Q. Brooks} & \href{mailto:oqb23@drexel.edu}{oqb23@drexel.edu} \faEnvelopeO\\
-  \href{https://owen-brooks.github.io}{http://owen-brooks.github.io} & 240-472-8246 \faPhone\\
+  \textbf{\LARGE Owen A. Brooks} & \href{mailto:oqb23@drexel.edu}{oqb23@drexel.edu} \\%\faEnvelopeO\\
+  \href{https://owen-brooks.github.io}{http://owen-brooks.github.io} & 240-472-8246 \\%\faPhone\\
   
 \end{tabular*}
 
@@ -97,13 +97,17 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Comcast}{Philadelphia, PA}
+      {Comcadst}{Philadelphia, PA}
       {Data Engineering Co-op}{May 2018 - Present}
       \resumeItemListStart
-        \resumeItem{Metadata Search Engine}
-          {Increased data accessibility and understanding by developing a full-stack metadata search-engine using Flask and ElasticSearch. Reformatted ElasticSearch database in order to improve query time and application scalability. }
-        \resumeItem{Data Manager API}
-          {Eliminated need for manual maintenance of Oracle database by creating a Java REST API using Spring-Boot and JPA. Implemented continuous deployment using Jenkins. Remained flexible and open to new requested features.}
+      \resumeItem{Workflow Dashboard}
+          {Designed and built full-stack Spring-Boot application allowing users to monitor data-transfer worflows. Leveraged 3rd party Java API to safely interact with automation software. Created doumentation used by teams trying to incoroporate that API into other projects. }
+        
+        \resumeItem{Dev-Ops REST-API}
+          {Automated and simplified access to application database by creating a REST API using Spring-Boot and JPA. Researched and implemented continuous deployment using Jenkins and Cloud-Foundry. Leveraged Spring Rest Docs to auto-generate scalable API documentation.
+          }
+          \resumeItem{Metadata Search App}
+          {Increased data accessibility and understanding by developing a full-stack metadata-search applictaion using Flask and ElasticSearch. Reformatted ElasticSearch database in order to improve query time and application scalability. }
         \resumeItem{Employee Training}
           {Gave presentations and demos to fellow Comcast employees on topics including: REST APIs, JPA, application frameworks, Jenkins, continuous deployment.}
       \resumeItemListEnd
@@ -116,11 +120,9 @@
         \resumeItem{Embedded Development}
           {Eliminated the need for microcrontrollers in product development by creating signal-processing algorithms. Implemented and tested created algorithms using FTDI cables.}
         \resumeItem{Test Software}
-          {Increased radio production by troubleshooting and fixing bugs found in hardware test applications. Coordinated with hardware technicians and lead software engineer to document bugs found in patches.}
+          {Increased radio production by troubleshooting and fixing bugs found in Python applications. Coordinated with hardware technicians and Lead Software Engineer to document bugs found in patches.}
         \resumeItem{RF Tuning And Production}
           {Exceeded monthly quotas for radio component production. Utilized a variety of mechanical and software tools to test and tune complex receivers, tuners, and their various modules}
-        \resumeItem{Employee Training}
-          {Decreased amount of time required to train new employees by creating detailed procedural reports.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -141,10 +143,10 @@
 
 
 %-----------PROJECTS-----------------
-\section{Design Projects}
+\section{Projects}
   \resumeSubHeadingListStart
     \resumeSubItem{Lego NZXT Robot}
-      {Robotics project that uses Lego hardware and search algorithms to compete in object retrieval challenges. Collaborated in a team of four to incorporate color, light, and motion sensors. Received second place in 2016 Drexel Design Lab Challenge.}
+      {Robotics project that uses Lego hardware and search algorithms to compete in object retrieval challenges. Received second place in 2016 Drexel Design Lab Challenge.}
       \resumeSubItem{Python Search Auto-Complete}
       {Program that allows incorporation of auto-completion in search engines. Learns common word problems using Markovs Algorithim. }
     \resumeSubItem{Interview Practice App}
@@ -160,8 +162,6 @@
       {Team member and starter on nationally ranked Division I wrestling team.\textit{(2016 - Present)}}
     \resumeSubItem{Beat The Streets Philadelphia}
       {Peer mentor, tutor and coach for Philadelphia youth. Striving to teach principles of academic and athletic discipline, through the sport of wrestling.\textit{(2017 - Present)}}
-    \resumeSubItem{Student-Athlete Advisory Committee} 
-      {Committee member for a student-athlete organization that plans fundraisers and other charity events.\textit{(2017 - Present)}}
   \resumeSubHeadingListEnd
 
 %
@@ -169,9 +169,9 @@
 \section{Select Skills}
   \resumeSubHeadingListStart
   \resumeSubItem{Languages}
-      {Python, SQL, C, MATLAB, R, Bash, Java, Groovy, C++, VHDL, LaTeX, HTML, CSS}
-    \resumeSubItem{Software}
-      {Linux/Unix, Mac OS, Git, Jenkins, Spring-Boot, Flask, Play, Oracle, MySQL, LabView, Autodesk Inventor}
+      {Python, SQL, C, MATLAB, R, Bash, Java, JavaScript, C++, VHDL, LaTeX, HTML, CSS}
+    \resumeSubItem{Frameworks and Tools}
+      {Git, Jenkins, Jira, Spring-Boot, Flask, Play, Oracle, MySQL, LabView, AutoCAD}
     \resumeSubItem{Test Equitment}
       {Signal Generator, Network Analyzer, Spectrum Analyzer, Oscilloscope}
   \resumeSubHeadingListEnd

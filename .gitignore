@@ -1,0 +1,9 @@
+# Weird Latex files #
+###################
+*.aux
+*.dvi
+*.log
+*.out
+*.syntex.gz
+
+

@@ -73,8 +73,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\LARGE Owen Q. Brooks} & \href{mailto:oqb23@drexel.edu}{oqb23@drexel.edu} \\%\faEnvelopeO\\
-  \href{https://owen-brooks.github.io}{http://owen-brooks.github.io} & 240-472-8246 \\%\faPhone\\
+  \textbf{\LARGE Owen Q. Brooks} & \href{mailto:oqbrooks@gmail.com}{oqbrooks@gmail.com} \\%\faEnvelopeO\\
+  \href{https://owen-brooks.github.io}{http://owen-brooks.github.io} & 240-277-5947 \\%\faPhone\\
   
 \end{tabular*}
 
@@ -82,65 +82,86 @@
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
+  \resumeSubheading
+      {University of Illinois at Urbana-Champaign}{}
+      {Master of Computer Science in Data Science};  GPA: 3.9{Expected Graduation 2023}
     \resumeSubheading
       {Drexel University}{Philadelphia, PA}
-      {Bachelor of Science in Computer Engineering;  GPA: 3.5}{Expected Graduation 2020}
+      {Bachelor of Science in Computer Engineering;  GPA: 3.5}{Sept 2016 - June 2020}
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
+    
+  \resumeSubheading
+     {QMA}{Newark, NJ}
+      {Quantative Developer}{Incoming}
+
+      
+  
+  \resumeSubheading
+     {Bloomberg L.P.}{Princeton, NJ}
+      {Data Engineer}{July 2020 - Present}
+      \resumeItemListStart
+      \resumeItem{File Backup Package}
+          {Decreased company budget for cloud storage by building a Python package and CLI to provide a consistent interface between multiple cloud object stores.}
+          \resumeItem{Data Quality Micro-services}
+         {Increased data quality standards by developing Python micro-services to run statistical checks and business rule validations on various datasets.}
+          \resumeItem{Governance Web Application}
+         {Standardized department governance by developing a Python and React web application. Built various forms and dashboards for governance related requests.}
+        \resumeItem{Time Series Comparison Package}
+         {Increased efficiency of time series matching by building a Python package with implementations for various NumPy based comparison techniques.}
+      \resumeItemListEnd
+      
+       
+      
+  
+  \resumeSubheading
+      {CRED iQ}{Radnor, PA}
+      {Jr. Software Developer}{Dec 2019 - July 2020}
+      \resumeItemListStart
+      \resumeItem{Web Scraping}
+          {Automated the collection of commercial real estate data by building Python web crawlers. Wrote tools to parse and normalize data from collected documents. Deployed and scheduled crawlers using AWS.}
+          \resumeItem{CMBS Analytics Application}
+          {Contributed to development of full-stack application for analysis of commercial mortgage-backed securities. Created various data visualizations of commercial property data.} 
+          \resumeItem{Comps Model}
+          {Developed model to determine comparable properties using a weighting of different factors.} 
+          
+      
+      \resumeItemListEnd
 
 	\resumeSubheading
       {Bloomberg L.P.}{Princeton, NJ}
       {Data Engineering Co-op}{May 2019 - September 2019}
             \resumeItemListStart
       \resumeItem{Portfolio Data Migration}
-          {Improved portfolio data quality by developing a data pipeline that featured enrichment, error detection, and crowd-sourced error remediation. Interfaced with various micro-services and API's to load data into new format. Built dashboards for reporting and system analysis.}
+          {Improved portfolio data quality by developing a data pipeline that featured enrichment, error detection, and crowd-sourced error remediation.}
         
         \resumeItem{Random Sampling Library}
-         {Standardized calculations of precision and recall in data quality projects by developing a Python package for random sampling. Worked with various data teams to build out new features and assist in implementation.
-          }
-          \resumeItem{Company Segments Data Quality}
-          {Automated data quality checks on company segment data by designing and building Python Tornado application. Interfaced with cloud and NoSQL databases to enrich and validate data. Built out error correction pipeline using JIRA project management software. }
+         {Standardized calculations of precision and recall in data quality projects by developing a Python package for random sampling. }
           
-          \resumeItem{Micro-services}
-          {Built python micro-services to automate various tasks such as email parsing, data routing and validation of business rules. }
       \resumeItemListEnd
 
+    
+
     \resumeSubheading
-      {Comcast}{West Chester, PA}
+      {Comcast}{Philadelphia, PA}
       {Software Engineering Co-op}{May 2018 - September 2018}
       \resumeItemListStart
       \resumeItem{Workflow Dashboard}
-          {Designed and built full-stack Spring-Boot application allowing users to monitor data-transfer workflows. Leveraged 3rd party Java API to safely interact with automation software. Focused on scalable design to allow easier on-boarding of users.}
+          {Designed and built full-stack Spring-Boot application allowing users to monitor data-transfer workflows. Leveraged 3rd party Java API to safely interact with automation software.}
         
-        \resumeItem{Dev-Ops REST-API}
-          {Simplified access to backend database by creating a REST API using Spring-Boot and JPA. Researched and implemented continuous deployment using Jenkins and Cloud-Foundry. Leveraged Spring Rest Docs to auto-generate scalable API documentation.
+        \resumeItem{Workflow Control API}
+          {Simplified access to backend database by creating a REST API using Spring-Boot and JPA. Researched and implemented continuous deployment using Jenkins and Cloud-Foundry.
           }
           \resumeItem{Metadata Search App}
           {Increased data accessibility by developing a full-stack metadata-search application. Reformatted ElasticSearch database in order to improve query time and application scalability. }
-          
-          \resumeItem{Data Ingestion Automation}
-          {Automated data transfer into Hadoop database with shell scripting. Researched and automated the conversion of shell scripts and utilities to Python. Validated ingested data with Hive.}
-          
-        \resumeItem{Employee Training}
-          {Gave presentations to fellow Comcast employees on topics including: REST APIs, JPA, application frameworks, Jenkins, continuous deployment.}
       \resumeItemListEnd
 
 
-    \resumeSubheading
-      {G3 Technologies}{Mt. Airy, MD}
-      {Electrical Engineering Co-op}{May 2017 - Sept 2017}
-      \resumeItemListStart
-      \resumeItem{Hardware Test Application}
-          {Increased radio production by troubleshooting and fixing bugs found in RF test applications. Restructured and simplified application UI. }
-          
-        \resumeItem{Radio R\&D}
-          {Simplified hardware development process by creating C programs to interface with FTDI cables and signal processing scripts. Coordinated with manufacturers to ensure build and functionality of new designs.}
-      
-      \resumeItemListEnd
+
 
 
   \resumeSubHeadingListEnd
@@ -150,12 +171,13 @@
 \section{Projects}
   \resumeSubHeadingListStart
     
-      \resumeSubItem{Aether-Search}
-      {Satellite search application developed for Starlight. Sensor data collected and organized using Python}
-    \resumeSubItem{Craigslist-Car-Finder}
-      {Flask web-scraping application built to search Craigslist car listings.}
+     
+      \resumeSubItem{XAI Senior Project}
+      {Academic paper comparing the effectiveness of eXplainable AI methods on neural nets. Involved detailed project planning and various presentations on team progress. (Python, Tensorflow, Keras) }
+       \resumeSubItem{Project Connect}
+      {Web application that matches students with programming projects. (NodeJS, MySQL)}
       \resumeSubItem{Owen-brooks.github.io}
-      {Personal website and blog with articles on various programming topics. Built with Jekyll.}
+      {Personal website and blog with articles on work experience and programming. (Jekyll)}
 
     
     
@@ -168,21 +190,12 @@
 \section{Select Skills}
   \resumeSubHeadingListStart
   \resumeSubItem{Languages}
-      {(proficient): Python, Java, SQL, Bash, MATLAB, HTML (familiar): C, JavaScript, R,  C++, VHDL}
+      {(proficient): Python, Java, JavaScript, SQL, Bash, MATLAB (familiar): TypeScript, R,  C++,}
     \resumeSubItem{Frameworks and Tools}
-      {Git, Jenkins, JIRA, Pandas, Spring-Boot, Flask, Arduino, Hive, Oracle, AWS, NoSQL}
-    \resumeSubItem{Test Equipment}
-      {Signal Generator, Network Analyzer, Spectrum Analyzer, Oscilloscope}
+      {Bloomberg Terminal, Git, Jenkins, JIRA, Pandas, Spring-Boot, NodeJS, React, Flask, Oracle, AWS, MySQL}
   \resumeSubHeadingListEnd
 
-%-----------extracurricular-----------------
-\section{Extracurricular Activites}
-  \resumeSubHeadingListStart
-    \resumeSubItem{Drexel Men's Wrestling}
-      {Team member and starter on nationally ranked Division I wrestling team.\textit{(2016 - Present)}}
-    \resumeSubItem{Beat The Streets Philadelphia}
-      {Peer mentor, tutor and coach for Philadelphia youth. Striving to teach principles of academic and athletic discipline, through the sport of wrestling.\textit{(2017 - 2018)}}
-  \resumeSubHeadingListEnd
+
 
 %-------------------------------------------
 \end{document}
